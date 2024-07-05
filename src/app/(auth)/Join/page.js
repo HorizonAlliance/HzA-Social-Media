@@ -11,7 +11,6 @@ function Page() {
                 </div>
 
                 <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-
                     <div className="mt-4 mx-auto">
                         <ButtonIcon provider="Google" iconSrc="./google.svg" altText="Google" > Sign Up With Google</ButtonIcon>
                     </div>
@@ -26,7 +25,7 @@ function Page() {
                     </div>
                     <div className='mt-4 mx-auto'>
                         <Link href="/SignUp">
-                            <button type="button" className="flex w-full justify-center rounded-full bg-green-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800">Create account</button>
+                                <button type="button" className="flex w-full justify-center rounded-full bg-green-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800">Create account</button>
                         </Link>
                     </div>
                     <p className="mt-10 text-center text-sm text-gray-300">
