@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Page() {
     return (
-        <div class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#3e6_100%)]">
+        <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-2 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#3e6_100%)]">
             <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
                 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                     <h2 className="mt-10 text-center text-3xl font-bold leading-9 tracking-tight text-white">Join Horizon</h2>
@@ -25,7 +25,7 @@ function Page() {
                     </div>
                     <div className='mt-4 mx-auto'>
                         <Link href="/SignUp">
-                                <button type="button" className="flex w-full justify-center rounded-full bg-green-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800">Create account</button>
+                            <button type="button" className="flex w-full justify-center rounded-full bg-green-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800">Create account</button>
                         </Link>
                     </div>
                     <p className="mt-10 text-center text-sm text-gray-300">
