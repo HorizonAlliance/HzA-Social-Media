@@ -1,4 +1,3 @@
-import ButtonIcon from '@/component/ButtonIcon';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -28,13 +27,6 @@ function page() {
                             <p className="mb-5 max-w-lg text-lg font-bold text-gray-300 sm:text-xl md:mb-10 lg:mb-12">
                                 Join Today
                             </p>
-                            <div className="mb-4 max-w-lg mx-auto">
-                                <ButtonIcon provider="Google" iconSrc="./google.svg" altText="Google" > Sign Up With Google</ButtonIcon>
-                            </div>
-
-                            <div className="mb-2 max-w-lg mx-auto ">
-                                <ButtonIcon provider="Apple" iconSrc="./Apple.svg" altText="Apple" > Sign Up With Apple</ButtonIcon>
-                            </div>
                             <div className="mt-2 ml-2 mr-2  max-w-sm flex items-center text-gray-500">
                                 <hr className="flex-grow bg-gray-500" />
                                 <span className="px-1">Or</span>
