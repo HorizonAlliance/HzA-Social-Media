@@ -1,5 +1,4 @@
 import React from 'react';
-import ButtonIcon from '@/component/ButtonIcon';
 import Link from 'next/link';
 
 function Page() {
@@ -11,13 +10,6 @@ function Page() {
                 </div>
 
                 <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-                    <div className="mt-4 mx-auto">
-                        <ButtonIcon provider="Google" iconSrc="./google.svg" altText="Google" > Sign Up With Google</ButtonIcon>
-                    </div>
-
-                    <div className="mt-4 mx-auto ">
-                        <ButtonIcon provider="Apple" iconSrc="./Apple.svg" altText="Apple" > Sign Up With Apple</ButtonIcon>
-                    </div>
                     <div className="mt-4 flex items-center text-gray-500">
                         <hr className="flex-grow bg-gray-500" />
                         <span className="px-2">Or</span>
